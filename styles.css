@@ -1,0 +1,85 @@
+h1 {
+    color: rgb(255, 0, 0);
+    font: sans-serif;
+  }
+  
+  p {
+    color: darkblue;
+   font: small;
+   font-family: 'Source Sans Pro', sans-serif;
+  }
+  #blue-bordered {
+border: 5px dashed blue;
+}
+
+section {
+  text-align: center;
+}
+
+
+nav {
+ display: inline;
+ text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding-left: 38%;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blueviolet;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Change the link color to #cornflowerblue*/
+li a:hover {
+  background-color: rgb(14, 22, 143);
+}
+
+html {
+  height: 100%;
+  background-color: rgb(240, 245, 245);
+}
+
+
+body {
+  height: 500%;
+  background-image: url('desert.jpg');
+  background-repeat: repeat-y;
+  background-size: 500% auto;
+  text-align: center;
+}
+
+.TAB{
+  margin-left: 250px;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+input{
+  margin-left: 20px;
+}
